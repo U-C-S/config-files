@@ -1,0 +1,54 @@
+{
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  "git.autofetchPeriod": 5000,
+  "git.enableSmartCommit": true,
+
+  "editor.suggestSelection": "first",
+  "editor.minimap.enabled": false,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.hover.delay": 200,
+  "editor.fontSize": 12,
+  "editor.tabSize": 2,
+  "editor.tabCompletion": "on",
+  "editor.suggest.showStatusBar": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.quickSuggestionsDelay": 5,
+  "editor.renderWhitespace": "none",
+  "editor.renderControlCharacters": false,
+  "editor.accessibilitySupport": "off",
+
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.productIconTheme": "material-product-icons",
+  "workbench.colorTheme": "Plastic - deprioritised punctuation",
+
+  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+
+  "files.autoSave": "afterDelay",
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+
+  "breadcrumbs.enabled": false,
+  "json.maxItemsComputed": 3000,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "liveServer.settings.donotVerifyTags": true,
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+
+  "[csharp]": {
+    "editor.defaultFormatter": "ms-dotnettools.csharp"
+  },
+  "[rust]": {
+    "editor.defaultFormatter": "matklad.rust-analyzer"
+  }
+}
