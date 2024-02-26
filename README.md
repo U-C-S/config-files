@@ -1,2 +1,1 @@
-# dot-files
-My dot-files for Windows
+Imagine not naming this repo as dot-files. smh
