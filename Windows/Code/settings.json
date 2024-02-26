@@ -1,54 +1,128 @@
 {
-  "git.confirmSync": false,
+  // Git
   "git.autofetch": true,
-  "git.autofetchPeriod": 5000,
+  "git.autofetchPeriod": 6000,
+  "git.confirmSync": false,
+  "git.enableCommitSigning": false,
   "git.enableSmartCommit": true,
-
-  "editor.suggestSelection": "first",
-  "editor.minimap.enabled": false,
-  "editor.fontFamily": "Fira Code",
-  "editor.fontLigatures": true,
-  "editor.hover.delay": 200,
-  "editor.fontSize": 12,
-  "editor.tabSize": 2,
-  "editor.tabCompletion": "on",
-  "editor.suggest.showStatusBar": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnPaste": true,
-  "editor.formatOnSave": true,
-  "editor.quickSuggestionsDelay": 5,
-  "editor.renderWhitespace": "none",
-  "editor.renderControlCharacters": false,
+  "diffEditor.diffAlgorithm": "advanced",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "diffEditor.experimental.showMoves": true,
+  "diffEditor.hideUnchangedRegions.enabled": true,
+  // Editor
   "editor.accessibilitySupport": "off",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.fontFamily": "Cascadia Code",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 12,
+  "editor.fontWeight": "normal",
+  "editor.formatOnSave": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.hover.delay": 200,
+  "editor.hover.above": false,
+  "editor.inlineSuggest.enabled": true,
+  "editor.minimap.enabled": false,
+  "editor.quickSuggestionsDelay": 5,
+  "editor.renderControlCharacters": false,
+  "editor.renderWhitespace": "none",
+  "editor.suggest.showStatusBar": true,
+  "editor.suggestSelection": "first",
+  "editor.stickyScroll.enabled": true,
+  "editor.tabCompletion": "on",
+  "editor.tabSize": 2,
+  "editor.linkedEditing": true,
 
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
 
+  "workbench.localHistory.enabled": false,
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.productIconTheme": "material-product-icons",
-  "workbench.colorTheme": "Plastic - deprioritised punctuation",
+  "workbench.productIconTheme": "fluent-icons",
 
   "terminal.integrated.fontSize": 12,
-  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.gpuAcceleration": "on",
+  "terminal.integrated.shellIntegration.enabled": true,
+  "terminal.external.windowsExec": "C:\\Users\\ucs37\\AppData\\Local\\Microsoft\\WindowsApps\\Microsoft.PowerShell_8wekyb3d8bbwe\\pwsh.exe",
+  "terminal.integrated.stickyScroll.enabled": true,
+  "terminal.integrated.enableImages": true,
+  "terminal.integrated.shellIntegration.suggestEnabled": true,
 
   "files.autoSave": "afterDelay",
-  "files.exclude": {
-    "**/.classpath": true,
-    "**/.project": true,
-    "**/.settings": true,
-    "**/.factorypath": true
-  },
+  "files.autoSaveDelay": 1500,
 
-  "breadcrumbs.enabled": false,
+  "window.dialogStyle": "custom",
+
+  "javascript.inlayHints.parameterNames.enabled": "all",
   "json.maxItemsComputed": 3000,
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "liveServer.settings.donotVerifyTags": true,
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "security.workspace.trust.untrustedFiles": "open",
+  "update.mode": "manual",
+  "vsintellicode.modify.editor.suggestSelection": "choseToUpdateConfiguration",
 
   "[csharp]": {
     "editor.defaultFormatter": "ms-dotnettools.csharp"
   },
   "[rust]": {
-    "editor.defaultFormatter": "matklad.rust-analyzer"
-  }
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
+  },
+  "[typescript][json][javascript][typescriptreact][jsonc][javascriptreact][html][css][scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "innosetup.pathToIscc": "C:\\Program Files (x86)\\Inno Setup 6\\ISCC.exe",
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": true,
+    "scminput": false,
+    "yaml": true,
+    "json": true
+  },
+  "github.copilot.editor.enableAutoCompletions": true,
+  "github.copilot.editor.enableCodeActions": true,
+  "deno.path": "D:\\Code\\__bin\\deno.exe",
+  "discord.suppressNotifications": true,
+  "discord.detailsIdling": "Doing Something!!",
+  "rust-analyzer.inlayHints.chainingHints.enable": false,
+  "rust-analyzer.inlayHints.closureStyle": "rust_analyzer",
+  "rust-analyzer.inlayHints.parameterHints.enable": false,
+  "rust-analyzer.inlayHints.typeHints.enable": false,
+  "kotlin.languageServer.enabled": false,
+  "kotlin.debugAdapter.enabled": false,
+
+  "search.experimental.quickAccess.preserveInput": true,
+  "json.sortOnSave.enable": true,
+  "files.associations": {
+    ".env*": "dotenv"
+  },
+  "editor.tokenColorCustomizations": {
+    "[*Light*]": {
+      "textMateRules": [
+        {
+          "scope": "ref.matchtext",
+          "settings": {
+            "foreground": "#000"
+          }
+        }
+      ]
+    },
+    "[*Dark*]": {
+      "textMateRules": [
+        {
+          "scope": "ref.matchtext",
+          "settings": {
+            "foreground": "#fff"
+          }
+        }
+      ]
+    },
+    "textMateRules": []
+  },
+  "workbench.colorTheme": "GitHub Dark Default",
+  "window.commandCenter": false,
+  "dotenv.enableAutocloaking": false,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.openRepositoryInParentFolders": "always"
 }

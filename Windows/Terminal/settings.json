@@ -4,20 +4,16 @@
     "actions": 
     [
         {
-            "command": "find",
-            "keys": "ctrl+shift+f"
-        },
-        {
-            "command": "paste",
-            "keys": "ctrl+v"
-        },
-        {
             "command": 
             {
                 "action": "copy",
                 "singleLine": false
             },
             "keys": "ctrl+c"
+        },
+        {
+            "command": "paste",
+            "keys": "ctrl+v"
         },
         {
             "command": 
@@ -27,24 +23,32 @@
                 "splitMode": "duplicate"
             },
             "keys": "alt+shift+d"
+        },
+        {
+            "command": "find",
+            "keys": "ctrl+shift+f"
         }
     ],
     "copyFormatting": "none",
     "copyOnSelect": false,
     "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
-    "initialCols": 108,
-    "initialRows": 28,
+    "initialCols": 114,
+    "initialRows": 32,
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
     "profiles": 
     {
         "defaults": 
         {
-            "backgroundImage": "D:\\Photos\\Wallpapers\\Downloaded\\legion\\3844672.jpg",
-            "backgroundImageOpacity": 0.35000000000000003,
             "font": 
             {
-                "size": 10
+                "size": 10.0
             },
-            "opacity": 55,
+            "opacity": 60,
             "useAcrylic": true
         },
         "list": 
@@ -62,20 +66,26 @@
                 "name": "Command Prompt"
             },
             {
+                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+                "hidden": false,
+                "name": "PowerShell",
+                "source": "Windows.Terminal.PowershellCore"
+            },
+            {
                 "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
                 "hidden": true,
                 "name": "Azure Cloud Shell",
                 "source": "Windows.Terminal.Azure"
             },
             {
-                "guid": "{ef4633ec-450e-505a-ad39-296a5ea448f3}",
-                "hidden": true,
+                "guid": "{34650ce2-7c91-557c-ac43-00d9f3f00df4}",
+                "hidden": false,
                 "name": "Developer Command Prompt for VS 2022",
                 "source": "Windows.Terminal.VisualStudio"
             },
             {
-                "guid": "{8641830c-4b4c-57f2-b93c-bedd91ecd106}",
-                "hidden": true,
+                "guid": "{e3228dbb-6a3c-52f4-833e-f797a4ff1d36}",
+                "hidden": false,
                 "name": "Developer PowerShell for VS 2022",
                 "source": "Windows.Terminal.VisualStudio"
             },
@@ -86,16 +96,10 @@
                 "source": "Git"
             },
             {
-                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
-                "hidden": false,
-                "name": "PowerShell",
-                "source": "Windows.Terminal.PowershellCore"
-            },
-            {
-                "guid": "{58ad8b0c-3ef8-5f4d-bc6f-13e4c00f2530}",
-                "hidden": false,
-                "name": "Debian",
-                "source": "Windows.Terminal.Wsl"
+                "guid": "{16208362-94fc-5b1f-a491-5b2624d5ab56}",
+                "hidden": true,
+                "name": "Visual Studio Debug Console",
+                "source": "VSDebugConsole"
             }
         ]
     },
@@ -189,7 +193,7 @@
             "name": "One Half Light",
             "purple": "#A626A4",
             "red": "#E45649",
-            "selectionBackground": "#FFFFFF",
+            "selectionBackground": "#4F525D",
             "white": "#FAFAFA",
             "yellow": "#C18301"
         },
@@ -235,7 +239,7 @@
             "name": "Solarized Light",
             "purple": "#D33682",
             "red": "#DC322F",
-            "selectionBackground": "#FFFFFF",
+            "selectionBackground": "#073642",
             "white": "#EEE8D5",
             "yellow": "#B58900"
         },
@@ -281,7 +285,7 @@
             "name": "Tango Light",
             "purple": "#75507B",
             "red": "#CC0000",
-            "selectionBackground": "#FFFFFF",
+            "selectionBackground": "#555753",
             "white": "#D3D7CF",
             "yellow": "#C4A000"
         },
@@ -309,6 +313,7 @@
             "yellow": "#808000"
         }
     ],
+    "themes": [],
     "useAcrylicInTabRow": true,
     "windowingBehavior": "useAnyExisting"
 }
